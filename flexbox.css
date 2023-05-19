@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Start of nav-style */
+nav {
+    background-color: #3474e6;
+    color: white;
+
+
+}
+
+
+nav .container h3{
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+nav .container ul li {
+    display: inline-block;
+
+}
+
+nav .container ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: white;
+   
+}
+
+/* End of nav-style */
+
+/* Start of Hero-section */
+.Hero-section{
+    background-color: #0151CC;
+   
+}
+
+.Hero-section .container .info{
+    
+    margin: 0;
+    color: white;
+}
+.Hero-section .container .info p{
+ font-size: 15px;
+line-height: 1.5   
+}
+.Hero-section .container .info h1{
+    margin-bottom: 0;
+    letter-spacing: 1.5px;
+}   
+.Hero-section .container img{
+    width: 40%;
+}
+/* End of Hero-section */
+
+/* Start of Cards-section */
+.Cards-section{
+    background-color: #4983e7;
+   
+}
+.Cards-section .container{
+    height: 250px;
+}
+.Cards-section .container div{
+    background-color: #0151CC;
+    margin: 10px 10px;
+    text-align: start;
+    padding: 16px;
+    width: 30%;
+    height: 51%;
+    border-radius: 7px;
+    box-shadow:5px 5px 13px #1a1a1aad ;
+}
+.Cards-section .container h3 , p {
+    margin: 0;
+    color: white;
+}
+.Cards-section .container  p{
+    font-size: 10px;
+   
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.Cards-section .container h3 {
+    margin-bottom: 10px;
+    font-size: 17px ;
+}
+.Cards-section .container h3 i {
+    margin-right: 7px;
+}
